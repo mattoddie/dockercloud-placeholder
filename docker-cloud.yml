@@ -1,0 +1,8 @@
+wedding:
+  image: mattoddie/dockercloud-placeholder
+  ports:
+    - "80:80"
+  tags:
+    - web
+  deployment_strategy: high_availability
+  restart: always
